@@ -5,7 +5,7 @@ let template = ("");
 console.log(customer);
 
 for (var i = 0; i < results.length; i++) {
-  template +=  `
+  template += `
   <div class="container">
   <img src=${results[i].picture.large}>
   <h3>${results[i].name.first} ${results[i].name.last}</h3>

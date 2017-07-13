@@ -1,62 +1,49 @@
-
-body{
+body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Helvetica', arial, sans-serif;
-
 }
 
-h1{
+h1 {
   display: flex;
   justify-content: center;
-
 }
 
-h3{
+h3 {
   font-size: 20px;
   text-transform: uppercase;
-
-
 }
 
-#customer{
+#customer {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
-#wrapper{
+#wrapper {
   display: flex;
   justify-content: center;
-
-
   width: 90%;
 }
 
-
-
-.container{
+.container {
   width: 25%;
   display: inline-block;
   text-align: center;
-
-
 }
 
 .container img {
   width: 95%;
 }
 
-.container hr{
+.container hr {
   align-content: center;
   width: 30%;
   margin-top: -1em;
   height: 1px;
   border: 0;
   border-top: 2px solid #93cfae;
-
   padding: 0;
 }
 
@@ -65,28 +52,25 @@ h3{
   font-weight: lighter;
   color: lightgray;
   font-size: 14px;
-
 }
 
-.street{
+.street {
   color: darkgray;
   text-transform: capitalize;
-
 }
 
-.address{
+.address {
   color: darkgray;
   margin-top: -.75em;
   text-transform: capitalize;
 }
 
-.phone{
+.phone {
   color: darkgray;
   margin-top: -.75em;
-
 }
 
-.ssn{
+.ssn {
   color: lightgray;
   font-weight: lighter;
   font-size: 18px;
