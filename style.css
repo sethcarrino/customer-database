@@ -8,6 +8,7 @@ body {
 h1 {
   display: flex;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -66,7 +67,7 @@ h3 {
 }
 
 .ssn {
-  color: lightgray;
+  color: #93cfae;
   font-weight: lighter;
   font-size: 18px;
 }
