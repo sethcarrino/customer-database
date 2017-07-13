@@ -1,0 +1,93 @@
+
+body{
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Helvetica', arial, sans-serif;
+
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+
+}
+
+h3{
+  font-size: 20px;
+  text-transform: uppercase;
+
+
+}
+
+#customer{
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+
+
+  width: 90%;
+}
+
+
+
+.container{
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+.container img {
+  width: 95%;
+}
+
+.container hr{
+  align-content: center;
+  width: 30%;
+  margin-top: -1em;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #93cfae;
+
+  padding: 0;
+}
+
+.email {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: lightgray;
+  font-size: 14px;
+
+}
+
+.street{
+  color: darkgray;
+  text-transform: capitalize;
+
+}
+
+.address{
+  color: darkgray;
+  margin-top: -.75em;
+  text-transform: capitalize;
+}
+
+.phone{
+  color: darkgray;
+  margin-top: -.75em;
+
+}
+
+.ssn{
+  color: lightgray;
+  font-weight: lighter;
+  font-size: 18px;
+}
