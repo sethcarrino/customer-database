@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: 'Helvetica', arial, sans-serif;
+
 }
 
 h1 {
@@ -15,16 +16,10 @@ h3 {
 }
 
 #customer {
-  margin: 0 auto;
+  margin: 50px 100px 15px 100px ;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-#wrapper {
-  display: flex;
-  justify-content: center;
-  width: 90%;
 }
 
 .container {
